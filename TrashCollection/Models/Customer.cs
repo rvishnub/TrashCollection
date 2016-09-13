@@ -21,7 +21,6 @@ namespace TrashCollection.Models
         public string Company { get; set; }
         public string Role { get; set; }
 
-        [ForeignKey("EmailAddress")]
         public string EmailAddress { get; set; }
 
         [ForeignKey("Address")]

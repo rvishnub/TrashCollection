@@ -17,8 +17,9 @@ namespace TrashCollection.Models
         public string StateID {get; set;}
         public string StateName {get; set;}
 
-        [ForeignKey("CountryID")]
+        [ForeignKey("Country")]
         public int CountryID { get; set; }
+        public Country Country { get; set; }
          
 
 

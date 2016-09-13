@@ -23,9 +23,7 @@ namespace TrashCollection.Models
         [ForeignKey("City")]
         public int CityID { get; set; }
         public City City { get; set; }
-        [ForeignKey("State")]
-        public string StateID { get; set; }
-        public State State { get; set; }
+
 
 
         [ForeignKey("Zipcode")]

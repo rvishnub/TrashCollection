@@ -40,7 +40,6 @@ namespace TrashCollection.Models
         public DbSet<Pickup> Pickup { get; set; }
         public DbSet<State> State { get; set; }
         public DbSet<Subscription> Subscription { get; set; }
-        public DbSet<UserProfile> UserProfile { get; set; }
         public DbSet<Zipcode> Zipcode { get; set; }
     }
 }
