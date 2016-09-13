@@ -1,6 +1,8 @@
 Domain classes
 
+
 Customer
+
 
 public int customerID
 pulic string firstName
@@ -71,3 +73,7 @@ fee
 balance due
 amount paid
 ICollection<Payment> Payments
+
+
+
+ha ha ha the formatting is now all wrong.
