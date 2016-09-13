@@ -20,9 +20,5 @@ namespace TrashCollection.Models
         [ForeignKey("State")]
         public string StateID { get; set; }
         public State State { get; set; }
-
-        [ForeignKey("Zipcode")]
-        public string ZipID { get; set; }
-        public Zipcode Zipcode { get; set; }
     }   
 }
